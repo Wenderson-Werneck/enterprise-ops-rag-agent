@@ -9,6 +9,22 @@
 
 ---
 
+## 🖥️ Interactive Visual Demo (1-Command Launch)
+
+![Enterprise Ops RAG Agent — Live Demo Preview](docs/preview.png)
+
+Launch the interactive Hybrid RAG (BM25 + RRF) & deterministic tool-calling operational assistant console preloaded with **100% synthetic inventory & SOP records**:
+
+```bash
+git clone https://github.com/Wenderson-Werneck/enterprise-ops-rag-agent.git
+cd enterprise-ops-rag-agent
+pip install -r requirements.txt
+python demo_app.py
+# Open http://127.0.0.1:8004
+```
+
+---
+
 ## 📌 Executive Summary
 
 While standard conversational AI bots perform well on generic text generation, they **fail catastrophically** in enterprise operations (supply chain, trading, and manufacturing). Asking an LLM to calculate physical stock, freight cost, or contract liquidity results in hallucinations, stale data, and business liability.
